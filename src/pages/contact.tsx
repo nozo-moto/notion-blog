@@ -8,27 +8,24 @@ import GitHub from '../components/svgs/github'
 import Twitter from '../components/svgs/twitter'
 import Envelope from '../components/svgs/envelope'
 import LinkedIn from '../components/svgs/linkedin'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBlog } from '@fortawesome/free-solid-svg-icons'
 
 const contacts = [
   {
     Comp: Twitter,
     alt: 'twitter icon',
-    link: 'https://twitter.com/_ijjk',
+    link: 'https://twitter.com/nozo_moto',
   },
   {
     Comp: GitHub,
     alt: 'github icon',
-    link: 'https://github.com/ijjk',
+    link: 'https://github.com/nozo-moto',
   },
   {
     Comp: LinkedIn,
     alt: 'linkedin icon',
-    link: 'https://www.linkedin.com/in/jj-kasper-0b5392166/',
-  },
-  {
-    Comp: Envelope,
-    alt: 'envelope icon',
-    link: 'mailto:jj@jjsweb.site?subject=Notion Blog',
+    link: 'https://www.linkedin.com/in/nozomi-morimoto-919374142/',
   },
 ]
 
@@ -36,15 +33,12 @@ export default () => (
   <>
     <Header titlePre="Contact" />
     <div className={sharedStyles.layout}>
-      <div className={contactStyles.avatar}>
-        <img src="/avatar.png" alt="avatar with letters JJ" height={60} />
-      </div>
+      <div className={contactStyles.avatar}></div>
 
       <h1 style={{ marginTop: 0 }}>Contact</h1>
 
       <div className={contactStyles.name}>
-        JJ Kasper - Next.js Engineer @{' '}
-        <ExtLink href="https://zeit.co">ZEIT</ExtLink>
+        Nozomi Morimoto - Software Engineer
       </div>
 
       <div className={contactStyles.links}>
@@ -55,6 +49,9 @@ export default () => (
             </ExtLink>
           )
         })}
+        <a href="https://www.nozograph.com" target="_blank">
+          <FontAwesomeIcon icon={faBlog} size="lg" color="black" />
+        </a>
       </div>
     </div>
   </>

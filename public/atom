@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>My Blog</title>
+    <subtitle>Blog</subtitle>
+    <link href="/atom" rel="self" type="application/rss+xml"/>
+    <link href="/" />
+    <updated>2020-05-23T16:55:54.313Z</updated>
+    <id>My Notion Blog</id>
+    <entry>
+      <id>/ha-proxy-understand</id>
+      <title>HA Proxyメモ</title>
+      <link href="/ha-proxy-understand"/>
+      <updated>1970-01-01T00:00:00.000Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/ha-proxy-understand">Read more</a>
+          </p>
+        </div>
+      </content>
+      
+    </entry>
+    <entry>
+      <id>/about-apache</id>
+      <title>Apacheまとめ</title>
+      <link href="/about-apache"/>
+      <updated>1970-01-01T00:00:00.000Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/about-apache">Read more</a>
+          </p>
+        </div>
+      </content>
+      
+    </entry>
+  </feed>
